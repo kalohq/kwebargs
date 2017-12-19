@@ -30,7 +30,7 @@ def read(fname):
     return content
 
 setup(
-    name='webargs',
+    name='kwebargs',
     version=__version__,
     description=('A friendly library for parsing and validating HTTP request arguments, '
         'with built-in support for popular web frameworks, including '
