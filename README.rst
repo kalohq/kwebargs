@@ -10,6 +10,10 @@ webargs
 
 Homepage: https://webargs.readthedocs.io/
 
+Webargs for KWS. LWS is locked to an older version of webargs, and upgrading
+this is in log step with KWS is not possible at this time.
+We can remove this when KWS and LWS split
+
 webargs is a Python library for parsing and validating HTTP request arguments, with built-in support for popular web frameworks, including Flask, Django, Bottle, Tornado, Pyramid, webapp2, Falcon, and aiohttp.
 
 .. code-block:: python
