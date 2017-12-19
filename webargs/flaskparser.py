@@ -22,7 +22,7 @@ Example: ::
 import flask
 from werkzeug.exceptions import HTTPException
 
-from webargs import core
+from . import core
 
 
 def abort(http_status_code, exc=None, **kwargs):

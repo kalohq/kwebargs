@@ -3,7 +3,7 @@
 """
 import falcon
 
-from webargs import core
+from . import core
 from falcon.util.uri import parse_query_string
 
 HTTP_422 = '422 Unprocessable Entity'

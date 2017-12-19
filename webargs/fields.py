@@ -16,7 +16,7 @@ where to parse the request argument from. ::
 """
 import marshmallow as ma
 
-from webargs.core import argmap2schema
+from .core import argmap2schema
 
 __all__ = [
     'Nested',

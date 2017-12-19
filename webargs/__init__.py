@@ -3,8 +3,8 @@ from marshmallow.utils import missing
 # Make marshmallow's validation functions importable from webargs
 from marshmallow import validate
 
-from webargs.core import argmap2schema, WebargsError, ValidationError
-from webargs import fields
+from .core import argmap2schema, WebargsError, ValidationError
+from . import fields
 
 __version__ = '1.8.1'
 __author__ = 'Steven Loria'

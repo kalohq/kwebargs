@@ -27,7 +27,7 @@ Example: ::
         webapp2.Route(r'/hello_dict', MainPage, handler_method='get_kwargs'),
     ], debug=True)
 """
-from webargs import core
+from . import core
 import webapp2
 import webapp2_extras.json
 import webob.multidict

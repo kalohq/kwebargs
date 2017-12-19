@@ -19,7 +19,7 @@ Example: ::
 """
 import bottle
 
-from webargs import core
+from . import core
 
 
 class BottleParser(core.Parser):

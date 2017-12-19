@@ -32,7 +32,7 @@ from webob.multidict import MultiDict
 from pyramid.httpexceptions import exception_response
 
 from marshmallow.compat import text_type
-from webargs import core
+from . import core
 
 
 class PyramidParser(core.Parser):

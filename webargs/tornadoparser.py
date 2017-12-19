@@ -18,7 +18,7 @@ import tornado.web
 from tornado.escape import _unicode
 
 from marshmallow.compat import basestring
-from webargs import core
+from . import core
 
 
 class HTTPError(tornado.web.HTTPError):

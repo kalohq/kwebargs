@@ -2,7 +2,7 @@ import inspect
 import collections
 import functools
 
-from webargs import core
+from . import core
 
 
 def _use_args(self, argmap, req=None, locations=None, as_kwargs=False, validate=None):

@@ -20,7 +20,7 @@ Example usage: ::
 """
 import json
 
-from webargs import core
+from . import core
 
 
 class DjangoParser(core.Parser):

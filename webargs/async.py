@@ -8,14 +8,14 @@ import marshmallow as ma
 from marshmallow.compat import iteritems
 from marshmallow.utils import missing
 
-from webargs import core
+from . import core
 
 PY_34 = sys.version_info < (3, 5)
 
 if PY_34:
-    from webargs.async_decorators34 import _use_args
+    from .async_decorators34 import _use_args
 else:
-    from webargs.async_decorators import _use_args
+    from .async_decorators import _use_args
 
 class AsyncParser(core.Parser):
     """Asynchronous variant of `webargs.core.Parser`, where parsing methods may be
